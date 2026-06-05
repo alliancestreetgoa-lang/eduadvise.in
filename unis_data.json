@@ -1,0 +1,389 @@
+{
+  "Ireland": [
+    {
+      "name": "Dublin City University",
+      "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Central_Mall_DCU.JPG?width=640",
+      "blurb": "Dublin City University (abbreviated as DCU; Irish: Ollscoil Chathair Bhaile Átha Cliath) is a university based on the Northside of Dublin, Ireland. Created as the National Institute for Higher Education, Dublin in 1975, it enrolled its first students in 1980, and was elevated to university status (along with the NIHE Limerick, now the University of Limerick) in September 1989 by statute.",
+      "site": "https://www.dcu.ie/",
+      "wiki": "https://en.wikipedia.org/wiki/Dublin_City_University",
+      "local": "img/dublin-city-university.jpg"
+    },
+    {
+      "name": "University College Dublin",
+      "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/University_College_Dublin_Campus_Photo1.jpg?width=640",
+      "blurb": "University College Dublin (Irish: Coláiste na hOllscoile, Baile Átha Cliath), commonly referred to as UCD, is a public research university in Dublin, Ireland, and a member institution of the National University of Ireland. With more than 38,000 students, it is Ireland's largest university.",
+      "site": "https://www.ucd.ie/",
+      "wiki": "https://en.wikipedia.org/wiki/University_College_Dublin",
+      "local": "img/university-college-dublin.jpg"
+    },
+    {
+      "name": "University College Cork",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/County_Cork_-_University_College_Cork_-_20190125141016.jpg/960px-County_Cork_-_University_College_Cork_-_20190125141016.jpg",
+      "blurb": "University College Cork – National University of Ireland, Cork (UCC; Irish: Coláiste na hOllscoile Corcaigh) is a constituent university of the National University of Ireland, and located in Cork.\nThe university was founded in 1845 as one of three Queen's Colleges located in Belfast, Cork, and Galway.",
+      "site": "https://www.ucc.ie",
+      "wiki": "https://en.wikipedia.org/wiki/University_College_Cork",
+      "local": "img/university-college-cork.jpg"
+    },
+    {
+      "name": "Technological University Dublin",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Technological_University_Dublin.jpg/960px-Technological_University_Dublin.jpg",
+      "blurb": "Technological University Dublin (Irish: Ollscoil Teicneolaíochta Bhaile Átha Cliath) or TU Dublin is Ireland's first technological university. It was established on 1 January 2019, with a history going back to 1887 through the amalgamated Dublin Institute of Technology which progressed from the first technical education institution in Ireland, the City of Dublin Technical Schools.",
+      "site": "https://www.tudublin.ie",
+      "wiki": "https://en.wikipedia.org/wiki/Technological_University_Dublin",
+      "local": "img/technological-university-dublin.jpg"
+    },
+    {
+      "name": "University of Limerick",
+      "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/University_of_Limerick_-.jpg?width=640",
+      "blurb": "University of Limerick (UL) (Irish: Ollscoil Luimnigh) is a public research university in Limerick, Ireland. Founded in 1972, as the National Institute for Higher Education, Limerick, it became a university in September 1989 in accordance with the University of Limerick Act 1989.",
+      "site": "https://www.ul.ie/",
+      "wiki": "https://en.wikipedia.org/wiki/University_of_Limerick",
+      "local": "img/university-of-limerick.jpg"
+    },
+    {
+      "name": "Maynooth University",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Saint_Patrick%27s_College%2C_Maynooth.jpg/960px-Saint_Patrick%27s_College%2C_Maynooth.jpg",
+      "blurb": "Maynooth University (MU; Irish: Ollscoil Mhá Nuad)  is a constituent university of the National University of Ireland in Maynooth, County Kildare, Ireland. Maynooth University was formerly known as National University of Ireland, Maynooth (NUIM; Irish: Ollscoil na hÉireann Mhá Nuad).",
+      "site": "https://www.maynoothuniversity.ie",
+      "wiki": "https://en.wikipedia.org/wiki/Maynooth_University",
+      "local": "img/maynooth-university.jpg"
+    },
+    {
+      "name": "Technological University of Shannon",
+      "thumb": null,
+      "blurb": "Technological University of the Shannon is a multi-campus technological university across Ireland's Midlands and Midwest, with campuses in Limerick, Athlone and Thurles.",
+      "site": "https://tus.ie",
+      "wiki": null,
+      "local": "img/technological-university-of-shannon.png"
+    },
+    {
+      "name": "Waterford Institute of Technology",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Waterford_Institute_of_Technology%2C_2021-06-01%2C_06.jpg/960px-Waterford_Institute_of_Technology%2C_2021-06-01%2C_06.jpg",
+      "blurb": "The Waterford Institute of Technology (WIT; Irish: Institiúid Teicneolaíochta Phort Láirge) was an institute of technology, located in Waterford, Ireland. The institute had six constituent schools and offered programmes in business, engineering, science, health sciences, as well as education & humanities.",
+      "site": "https://www.setu.ie",
+      "wiki": "https://en.wikipedia.org/wiki/Waterford_Institute_of_Technology",
+      "local": "img/waterford-institute-of-technology.jpg"
+    },
+    {
+      "name": "Dundalk Institute of Technology",
+      "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Dundalk_-_Dundalk_Institute_of_Technology_-_20190913095729.jpg?width=640",
+      "blurb": "Dundalk Institute of Technology (DkIT; Irish: Institiúid Teicneolaíochta Dhún Dealgan) is an institute of technology, located in Dundalk, Ireland. Established as the Dundalk Regional Technical College, students were first enrolled in the college in 1971 and it was later re-defined as an institute of technology in January 1998.",
+      "site": "http://www.dkit.ie",
+      "wiki": "https://en.wikipedia.org/wiki/Dundalk_Institute_of_Technology",
+      "local": "img/dundalk-institute-of-technology.jpg"
+    },
+    {
+      "name": "Dublin Business School",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Dublin_Business_School.jpg/960px-Dublin_Business_School.jpg",
+      "blurb": "Dublin Business School (DBS), incorporating Portobello College, is a private college in Dublin, Ireland. With over 9,000 students, DBS provides full-time and part-time undergraduate and postgraduate programmes in business, marketing, management computing, law, accounting, IT, arts, creative media, psychotherapy and psychology.",
+      "site": "https://www.dbs.ie/",
+      "wiki": "https://en.wikipedia.org/wiki/Dublin_Business_School",
+      "local": "img/dublin-business-school.jpg"
+    },
+    {
+      "name": "Griffith College Ireland",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Griffith_College_Ireland_logo.jpg",
+      "blurb": "Griffith College Dublin  (GCD) (Irish: Coláiste Uí Ghríofa) is one of the longest-established private third level (higher education) colleges in Dublin, Ireland, and the largest such institution in the country. Begun as Business and Accounting Training in 1974, and having started to award degrees in 1990, it today has four campuses, two in Dublin, and one each in Cork and Limerick, the latter two based on acquisitions.",
+      "site": "http://www.griffith.ie",
+      "wiki": "https://en.wikipedia.org/wiki/Griffith_College_Dublin",
+      "local": "img/griffith-college-ireland.jpg"
+    },
+    {
+      "name": "National College of Ireland",
+      "thumb": null,
+      "blurb": "National College of Ireland (NCI) (Coláiste Náisiúnta na hÉireann (CNÉ) in Irish) is a not-for-profit, state-aided third-level education institution in Dublin. It was founded in 1951 as a joint venture between the Jesuits in Ireland and Irish trade unions, and was originally named the Catholic Workers College, Dublin.",
+      "site": "http://www.ncirl.ie",
+      "wiki": "https://en.wikipedia.org/wiki/National_College_of_Ireland",
+      "local": "img/national-college-of-ireland.jpg"
+    },
+    {
+      "name": "Holmes Institute",
+      "thumb": null,
+      "blurb": "Holmes Institute and Holmes College is an Australian provider of higher education courses. It is privately owned with campuses in Melbourne, Sydney, Brisbane, Gold Coast, Cairns, Dublin, London and Toronto.",
+      "site": "https://www.holmes.edu.au",
+      "wiki": "https://en.wikipedia.org/wiki/Holmes_Institute"
+    }
+  ],
+  "United Kingdom": [
+    {
+      "name": "University of Northampton",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Arms_of_the_University_of_Northampton.svg/960px-Arms_of_the_University_of_Northampton.svg.png",
+      "blurb": "The University of Northampton is a public university based in Northampton, Northamptonshire, England. It was formed in 1975 as Nene College of Higher Education by the amalgamation of a number of training colleges and gained university college status as University College Northampton in 1999 and full university status as the University of Northampton in 2005.",
+      "site": "http://www.northampton.ac.uk/",
+      "wiki": "https://en.wikipedia.org/wiki/University_of_Northampton",
+      "local": "img/university-of-northampton.png"
+    },
+    {
+      "name": "Anglia Ruskin University",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Shield_of_Anglia_Ruskin_University.svg/960px-Shield_of_Anglia_Ruskin_University.svg.png",
+      "blurb": "Anglia Ruskin University (ARU) is a public research university in the region of East Anglia, United Kingdom. Its origins date back to the Cambridge School of Art (CSA), founded in 1858 by William John Beamont, a Fellow of Trinity College at the University of Cambridge.",
+      "site": "https://aru.ac.uk/",
+      "wiki": "https://en.wikipedia.org/wiki/Anglia_Ruskin_University",
+      "local": "img/anglia-ruskin-university.jpg"
+    },
+    {
+      "name": "Buckinghamshire New University",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Coat_of_arms_of_Buckinghamshire_New_University.svg/960px-Coat_of_arms_of_Buckinghamshire_New_University.svg.png",
+      "blurb": "Buckinghamshire New University (BNU), (formerly known as Buckinghamshire Chilterns University College) is a public university in Buckinghamshire, England, with campuses in High Wycombe, Aylesbury, Uxbridge and Great Missenden. The institution dates from 1891, when it was founded as the School of Science and Art, and has since been known as Wycombe Technical Institute, High Wycombe College of Technology and Art and the Buckinghamshire College of Higher Education.",
+      "site": "http://www.bucks.ac.uk/",
+      "wiki": "https://en.wikipedia.org/wiki/Buckinghamshire_New_University",
+      "local": "img/buckinghamshire-new-university.png"
+    },
+    {
+      "name": "Abertay University",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Arms_of_Abertay_University.svg/960px-Arms_of_Abertay_University.svg.png",
+      "blurb": "Abertay University (Scottish Gaelic: Oilthigh Obar Thatha) is a public university in the city of Dundee, Scotland. In 1872, Sir David Baxter, 1st Baronet of Kilmaron, left a bequest for the establishment of a mechanics' institute in Dundee and the Dundee Institute of Technology was formed in 1888.",
+      "site": "http://www.abertay.ac.uk/",
+      "wiki": "https://en.wikipedia.org/wiki/Abertay_University",
+      "local": "img/abertay-university.jpg"
+    },
+    {
+      "name": "Wrexham University",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Coat_of_arms_of_Wrexham_Glynd%C5%B5r.svg/960px-Coat_of_arms_of_Wrexham_Glynd%C5%B5r.svg.png",
+      "blurb": "Wrexham University (Welsh: Prifysgol Wrecsam; Welsh pronunciation: [priːvˈəsɡɔl ˈrɛksam]) is a public university in the north-east of Wales, with campuses in Wrexham, Northop and St Asaph. It offers both undergraduate and postgraduate degrees, as well as professional courses.",
+      "site": "https://www.wrexham.ac.uk",
+      "wiki": "https://en.wikipedia.org/wiki/Wrexham_University",
+      "local": "img/wrexham-university.jpg"
+    },
+    {
+      "name": "Aberystwyth University",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Shield_of_Aberystwyth_University.svg/960px-Shield_of_Aberystwyth_University.svg.png",
+      "blurb": "Aberystwyth University (Welsh: Prifysgol Aberystwyth) is a public research university in Aberystwyth, Wales. Aberystwyth was a founding member institution of the former federal University of Wales.",
+      "site": "https://www.aber.ac.uk/en/",
+      "wiki": "https://en.wikipedia.org/wiki/Aberystwyth_University",
+      "local": "img/aberystwyth-university.png"
+    },
+    {
+      "name": "Arts University Bournemouth",
+      "thumb": "https://upload.wikimedia.org/wikipedia/en/f/f5/Arts_University_Bournemouth_logo.png",
+      "blurb": "Arts University Bournemouth (abbreviated AUB) is a public university in Poole, England, specialising in art, architecture, film, performance, and design. Established in 1880, the university has been ranked Silver and Gold by the Teaching Excellence Framework in 2017, and was rated Outstanding by Ofsted, having retained this highest ranking since 2018.",
+      "site": "http://aub.ac.uk/",
+      "wiki": "https://en.wikipedia.org/wiki/Arts_University_Bournemouth"
+    },
+    {
+      "name": "Bangor University",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Arms_of_Bangor_University_with_furs.svg/960px-Arms_of_Bangor_University_with_furs.svg.png",
+      "blurb": "Bangor University (Welsh: Prifysgol Bangor) is a public research university in Bangor, Gwynedd, Wales. It was established in 1884 as the University College of North Wales (UCNW; Welsh: Coleg Prifysgol Gogledd Cymru), and received a Royal Charter in 1885.",
+      "site": "https://www.bangor.ac.uk/",
+      "wiki": "https://en.wikipedia.org/wiki/Bangor_University",
+      "local": "img/bangor-university.png"
+    }
+  ],
+  "UAE": [
+    {
+      "name": "Amity University Dubai",
+      "thumb": null,
+      "blurb": "Amity University, Noida (officially Amity University Uttar Pradesh) is a private university located in Noida, Uttar Pradesh, India. It was established in 2005 by an Act of the State Legislature of Uttar Pradesh.",
+      "site": "https://www.amityuniversity.ae",
+      "wiki": "https://en.wikipedia.org/wiki/Amity_University,_Noida",
+      "local": "img/amity-university-dubai.jpg"
+    },
+    {
+      "name": "University of Wollongong, Dubai",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/UOWD_Campus.jpg/960px-UOWD_Campus.jpg",
+      "blurb": "The University of Wollongong in Dubai (UOWD) Arabic: جامعة ولونغونغ في دبي) is an offshore campus of the University of Wollongong in Dubai, United Arab Emirates. Established in 1993, the university is located in the Dubai Knowledge Park and serves over 5,000 students.",
+      "site": "http://www.uowdubai.ac.ae/",
+      "wiki": "https://en.wikipedia.org/wiki/University_of_Wollongong_in_Dubai",
+      "local": "img/university-of-wollongong-dubai.jpg"
+    },
+    {
+      "name": "University of Birmingham, Dubai",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Shield_of_the_University_of_Birmingham.svg/960px-Shield_of_the_University_of_Birmingham.svg.png",
+      "blurb": "The University of Birmingham Dubai brings the British Russell Group university's degrees to Dubai International Academic City, taught on a purpose-built campus.",
+      "site": "https://www.birmingham.ac.uk/dubai",
+      "wiki": null,
+      "local": "img/university-of-birmingham-dubai.png"
+    },
+    {
+      "name": "Canadian University Dubai",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Canadian_University_Dubai_Graduation.jpeg/960px-Canadian_University_Dubai_Graduation.jpeg",
+      "blurb": "The Canadian University Dubai, popularly known as CUD, is a private university in Dubai, United Arab Emirates, founded in 2006. The Canadian University Dubai offers education based on the Canadian curriculum.",
+      "site": "http://www.cud.ac.ae/",
+      "wiki": "https://en.wikipedia.org/wiki/Canadian_University_Dubai",
+      "local": "img/canadian-university-dubai.jpg"
+    },
+    {
+      "name": "Middlesex University Dubai",
+      "thumb": "https://upload.wikimedia.org/wikipedia/en/thumb/d/dd/Middlesex_University_Dubai%2C_2022.jpg/960px-Middlesex_University_Dubai%2C_2022.jpg",
+      "blurb": "Middlesex University (MDX) Dubai (Arabic: جامعة ميدلسكس دبي, romanized: Jāmiʿah Mīdilsaks Dubaī) is an offshore campus of Middlesex University London in Dubai, United Arab Emirates. Situated across two locations in Dubai Knowledge Park and Dubai International Academic City, the campus was inaugurated in 2005 and currently has over 7,100 students from over 120 nationalities studying across both locations.",
+      "site": "https://www.mdx.ac.ae",
+      "wiki": "https://en.wikipedia.org/wiki/Middlesex_University_Dubai",
+      "local": "img/middlesex-university-dubai.png"
+    },
+    {
+      "name": "The Emirates Academy of Hospitality Management",
+      "thumb": null,
+      "blurb": "The Emirates Academy of Hospitality Management in Dubai is one of the world's leading hospitality business schools, associated with Jumeirah Group and certified by École hôtelière de Lausanne.",
+      "site": "https://www.emiratesacademy.edu",
+      "wiki": null
+    },
+    {
+      "name": "Global Business School",
+      "thumb": null,
+      "blurb": "A Dubai-based business school offering internationally accredited undergraduate and postgraduate business programmes for an international student body.",
+      "site": null,
+      "wiki": null
+    }
+  ],
+  "USA": [
+    {
+      "name": "Monroe College",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Monroe_College_logo.svg/960px-Monroe_College_logo.svg.png",
+      "blurb": "Monroe University is a private for-profit university in New York City. It was founded in 1933 and has campuses in the Bronx, New Rochelle and Saint Lucia, with degree programs also available through Monroe Online.",
+      "site": "http://www.monroecollege.edu",
+      "wiki": "https://en.wikipedia.org/wiki/Monroe_University",
+      "local": "img/monroe-college.png"
+    },
+    {
+      "name": "Jessup University",
+      "thumb": null,
+      "blurb": "Jessup University (officially William Jessup University) is a private Christian university in Rocklin, California, United States, with additional sites in San Jose, California, and Portland, Oregon. The university had 1,743 (over 1650 full-time equivalent) students during the 2019–20 academic year.",
+      "site": "https://jessup.edu/",
+      "wiki": "https://en.wikipedia.org/wiki/Jessup_University",
+      "local": "img/jessup-university.jpg"
+    },
+    {
+      "name": "Culinary Institute of America",
+      "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Culinary_Institute_of_America_Colavita_and_Roth_Hall.JPG?width=640",
+      "blurb": "The Culinary Institute of America (CIA) is a private culinary school with its main campus in Hyde Park, New York, and branch campuses in St. Helena and Napa, California; San Antonio, Texas; and Singapore.",
+      "site": "https://www.ciachef.edu",
+      "wiki": "https://en.wikipedia.org/wiki/The_Culinary_Institute_of_America",
+      "local": "img/culinary-institute-of-america.jpg"
+    },
+    {
+      "name": "Washington University of Science and Technology",
+      "thumb": null,
+      "blurb": "Washington University of Science and Technology is a private university in Alexandria, Virginia, in the Washington, D.C. metro area, offering career-focused degrees in business, IT and health sciences.",
+      "site": "https://wust.edu",
+      "wiki": null
+    },
+    {
+      "name": "City University of Seattle",
+      "thumb": null,
+      "blurb": "The City University of Seattle (CityU) is a private university in Seattle, Washington, United States. City University was founded in 1973 as City College by a group of  business leaders and educators in the Seattle area led by Michael A. Pastore with an original mission dedicated to providing higher education for working adults.",
+      "site": "https://www.cityu.edu/",
+      "wiki": "https://en.wikipedia.org/wiki/City_University_of_Seattle",
+      "local": "img/city-university-of-seattle.png"
+    },
+    {
+      "name": "Northwood University",
+      "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/NorthwoodAdmin.jpg?width=640",
+      "blurb": "Northwood University (NU) is a private university in Midland, Michigan, United States, and online. Founded in 1959, the university specializes in business and management education, offering undergraduate and graduate programs across disciplines such as business administration, finance, accounting, marketing, entrepreneurship, hospitality and automotive-related business fields.",
+      "site": "https://www.northwood.edu/",
+      "wiki": "https://en.wikipedia.org/wiki/Northwood_University",
+      "local": "img/northwood-university.jpg"
+    }
+  ],
+  "Spain": [
+    {
+      "name": "SBS Swiss Business School — Barcelona",
+      "thumb": null,
+      "blurb": "SBS Swiss Business School is a private business school located in Zurich, Switzerland, with affiliated campuses and partner schools in Malta, China, Spain, Latvia, Kazakhstan, the United Arab Emirates, India, Myanmar, Ghana and the United States.\nThe school offers undergraduate, graduate, and doctoral programs in business administration, management, marketing, artificial intelligence (AI), and executive education certificate programs.",
+      "site": "https://www.sbs.edu",
+      "wiki": "https://en.wikipedia.org/wiki/SBS_Swiss_Business_School"
+    },
+    {
+      "name": "SBS Swiss Business School — Madrid",
+      "thumb": null,
+      "blurb": "SBS Swiss Business School is a private business school located in Zurich, Switzerland, with affiliated campuses and partner schools in Malta, China, Spain, Latvia, Kazakhstan, the United Arab Emirates, India, Myanmar, Ghana and the United States.\nThe school offers undergraduate, graduate, and doctoral programs in business administration, management, marketing, artificial intelligence (AI), and executive education certificate programs.",
+      "site": "https://www.sbs.edu",
+      "wiki": "https://en.wikipedia.org/wiki/SBS_Swiss_Business_School"
+    },
+    {
+      "name": "EAE Business School",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/0/0a/EAE_Business_School_logo.jpg",
+      "blurb": "The EAE Business School is a private business school founded in 1958 with campuses in Madrid and Barcelona (Spain).",
+      "site": "http://www.eae.es",
+      "wiki": "https://en.wikipedia.org/wiki/EAE_Business_School",
+      "local": "img/eae-business-school.jpg"
+    },
+    {
+      "name": "GBSB Global Business School",
+      "thumb": null,
+      "blurb": "GBSB Global Business School is a private institution of higher education with campuses in Barcelona and Madrid (Spain), Birkirkara (Malta), and a virtual, online campus. This business school holds international accreditations.",
+      "site": "https://www.global-business-school.org",
+      "wiki": "https://en.wikipedia.org/wiki/GBSB_Global_Business_School",
+      "local": "img/gbsb-global-business-school.png"
+    }
+  ],
+  "France": [
+    {
+      "name": "École Ducasse",
+      "thumb": null,
+      "blurb": "École Ducasse is a network of culinary arts and pastry schools created by legendary chef Alain Ducasse, with flagship campuses in and around Paris.",
+      "site": "https://www.ecoleducasse.com",
+      "wiki": null
+    },
+    {
+      "name": "ESLSCA Business School Paris",
+      "thumb": null,
+      "blurb": "ESLSCA Business School Paris is a French business school founded in 1949, recognised for its programmes in finance, management and international business.",
+      "site": "https://www.eslsca.fr",
+      "wiki": null
+    },
+    {
+      "name": "Institut Lyfe (Institut Paul Bocuse)",
+      "thumb": null,
+      "blurb": "Institut Lyfe, formerly Institut Paul Bocuse, in Lyon is among the world's most prestigious schools of culinary arts and hospitality management.",
+      "site": "https://www.institutlyfe.com",
+      "wiki": null,
+      "local": "img/institut-lyfe-institut-paul-bocuse.jpg"
+    }
+  ],
+  "Italy": [
+    {
+      "name": "Rome Business School",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Rome_Business_School.webp/960px-Rome_Business_School.webp.png",
+      "blurb": "Rome Business School (RBS) is an international business school based in Rome, Italy, offering a wide range of master's degrees, MBA programmes, executive education and — more recently — bachelor's degrees, with on-campus and online options.\n\nThe school attracts a diverse student body from more than 161 countries, creating a multicultural and global learning environment.",
+      "site": "http://romebusinessschool.it/en/",
+      "wiki": "https://en.wikipedia.org/wiki/Rome_Business_School",
+      "local": "img/rome-business-school.png"
+    },
+    {
+      "name": "Università Cattolica del Sacro Cuore",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Universit%C3%A0_Cattolica_di_Milano_%28facciata%29.jpg/960px-Universit%C3%A0_Cattolica_di_Milano_%28facciata%29.jpg",
+      "blurb": "Università Cattolica del Sacro Cuore or Catholic University of the Sacred Heart, colloquially the Catholic University of Milan (Italian: Università Cattolica di Milano) or simply the Cattolica, is an Italian private Catholic research university founded in 1921. Its main campus is located in Milan, Italy, with satellite campuses in Brescia, Piacenza, Cremona and Rome.",
+      "site": "https://www.unicatt.it",
+      "wiki": "https://en.wikipedia.org/wiki/Universit%C3%A0_Cattolica_del_Sacro_Cuore",
+      "local": "img/universit-cattolica-del-sacro-cuore.jpg"
+    }
+  ],
+  "Cyprus": [
+    {
+      "name": "University of Nicosia",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/University_of_Nicosia_%28logo%29.svg/960px-University_of_Nicosia_%28logo%29.svg.png",
+      "blurb": "The University of Nicosia (UNIC) is a private for-profit university in Nicosia, Cyprus.\nIn September 2007, Intercollege became the University of Nicosia, Cyprus.",
+      "site": "https://www.unic.ac.cy",
+      "wiki": "https://en.wikipedia.org/wiki/University_of_Nicosia",
+      "local": "img/university-of-nicosia.png"
+    },
+    {
+      "name": "University of Central Lancashire Cyprus",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Shield_of_the_University_of_Central_Lancashire.svg/960px-Shield_of_the_University_of_Central_Lancashire.svg.png",
+      "blurb": "The University of Lancashire is a public university based in the city of Preston, Lancashire, England. It has its roots in The Institution For The Diffusion Of Useful Knowledge, founded in 1828.",
+      "site": "https://www.uclancyprus.ac.cy",
+      "wiki": "https://en.wikipedia.org/wiki/University_of_Lancashire",
+      "local": "img/university-of-central-lancashire-cyprus.png"
+    }
+  ],
+  "Switzerland": [
+    {
+      "name": "Glion Institute of Higher Education",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/7/70/Glioncamp.jpg",
+      "blurb": "The Glion Institute of Higher Education (GIHE, French: Institut de hautes études de Glion) provides instruction in hospitality management, with campuses in Switzerland and the United Kingdom.",
+      "site": "http://www.glion.edu/",
+      "wiki": "https://en.wikipedia.org/wiki/Glion_Institute_of_Higher_Education",
+      "local": "img/glion-institute-of-higher-education.jpg"
+    }
+  ],
+  "Canada": [
+    {
+      "name": "Crandall University",
+      "thumb": null,
+      "blurb": "Crandall University is a Christian liberal arts university located in Moncton, New Brunswick, Canada. It is owned and operated by the Canadian Baptists of Atlantic Canada (CBAC), which appoints a majority of its board of governors.",
+      "site": "http://www.crandallu.ca/",
+      "wiki": "https://en.wikipedia.org/wiki/Crandall_University",
+      "local": "img/crandall-university.jpg"
+    }
+  ]
+}

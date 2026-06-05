@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- EduAdvise International — graduation-cap V mark -->
+  <rect width="64" height="64" rx="13" fill="#660066"/>
+  <!-- mortarboard -->
+  <path d="M32 9 L51 17.5 L32 26 L13 17.5 Z" fill="#FFFFFF"/>
+  <!-- cap base -->
+  <path d="M25.5 23.5 h13 v4.2 q0 2.3 -2.3 2.3 h-8.4 q-2.3 0 -2.3 -2.3 Z" fill="#FFFFFF"/>
+  <!-- tassel -->
+  <path d="M48.5 19.5 v9" stroke="#FFFFFF" stroke-width="2.4" stroke-linecap="round" fill="none"/>
+  <circle cx="48.5" cy="31.5" r="2.6" fill="#FFFFFF"/>
+  <!-- V -->
+  <path d="M19 35 L45 35 L32 57 Z" fill="#FFFFFF"/>
+</svg>

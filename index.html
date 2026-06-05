@@ -1,0 +1,1172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EduAdvise International — Study Abroad Consultants, Margao Goa</title>
+<meta name="description" content="EduAdvise International helps Goan students study at world-class universities in the UK, Australia, Canada, USA & Europe. Free counselling in Margao.">
+<link rel="icon" type="image/svg+xml" href="img/favicon.svg">
+<link rel="apple-touch-icon" href="img/favicon.svg">
+<meta name="theme-color" content="#660066">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..900;1,9..144,300..900&family=Schibsted+Grotesk:ital,wght@0,400..900;1,400..900&family=Azeret+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<style>
+/* ============ TOKENS ============ */
+:root {
+  --paper: #F7F2EE;
+  --paper-deep: #EFE4ED;
+  --ink: #470747;
+  --ink-soft: #6B4668;
+  --red: #F76A0C;
+  --red-deep: #D45607;
+  --blue: #660066;
+  --gold: #C99B3F;
+  --line: #DBC9D6;
+  --display: "Fraunces", serif;
+  --body: "Schibsted Grotesk", sans-serif;
+  --mono: "Azeret Mono", monospace;
+  --airmail: repeating-linear-gradient(135deg,
+    var(--red) 0 14px, var(--paper) 14px 26px,
+    var(--blue) 26px 40px, var(--paper) 40px 52px);
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--body);
+  font-size: 17px;
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+body::before { /* paper grain */
+  content: ""; position: fixed; inset: 0; z-index: 999; pointer-events: none;
+  opacity: .35; mix-blend-mode: multiply;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/%3E%3CfeColorMatrix values='0 0 0 0 0.6 0 0 0 0 0.55 0 0 0 0 0.45 0 0 0 0.06 0'/%3E%3C/filter%3E%3Crect width='180' height='180' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+::selection { background: var(--red); color: var(--paper); }
+a { color: inherit; text-decoration: none; }
+img { display: block; max-width: 100%; }
+.wrap { max-width: 1240px; margin: 0 auto; padding: 0 32px; }
+.mono { font-family: var(--mono); font-size: 12px; letter-spacing: .14em; text-transform: uppercase; }
+
+/* airmail edge */
+.airmail-edge { height: 10px; background: var(--airmail); }
+
+/* ============ NAV ============ */
+nav {
+  position: sticky; top: 0; z-index: 100;
+  background: color-mix(in srgb, #660066 94%, transparent);
+  backdrop-filter: blur(10px);
+  border-bottom: 1.5px solid var(--ink);
+}
+.nav-inner { display: flex; align-items: center; justify-content: space-between; padding: 10px 32px; max-width: 1240px; margin: 0 auto; }
+.logo { display: flex; align-items: center; gap: 10px; }
+.logo-img { height: 58px; width: auto; display: block; }
+.nav-links a.link { color: var(--paper); }
+.logo-mark {
+  font-family: var(--display); font-weight: 800; font-size: 24px; letter-spacing: -.02em;
+}
+.logo-mark em { font-style: italic; color: var(--red); }
+.logo-sub { font-family: var(--mono); font-size: 10px; letter-spacing: .22em; text-transform: uppercase; color: var(--ink-soft); }
+.nav-links { display: flex; gap: 34px; align-items: center; }
+.nav-links a.link {
+  font-size: 14.5px; font-weight: 500; position: relative; padding: 4px 0;
+}
+.nav-links a.link::after {
+  content: ""; position: absolute; left: 0; bottom: 0; width: 100%; height: 2px;
+  background: var(--red); transform: scaleX(0); transform-origin: right; transition: transform .35s cubic-bezier(.7,0,.3,1);
+}
+.nav-links a.link:hover::after { transform: scaleX(1); transform-origin: left; }
+.btn {
+  display: inline-flex; align-items: center; gap: 10px;
+  font-family: var(--mono); font-size: 12.5px; font-weight: 600; letter-spacing: .12em; text-transform: uppercase;
+  background: var(--ink); color: var(--paper); padding: 13px 24px;
+  border: 1.5px solid var(--ink); cursor: pointer;
+  transition: background .25s, color .25s, transform .2s, box-shadow .2s;
+  box-shadow: 4px 4px 0 var(--red);
+}
+.btn:hover { transform: translate(-2px,-2px); box-shadow: 7px 7px 0 var(--red); }
+.btn:active { transform: translate(2px,2px); box-shadow: 1px 1px 0 var(--red); }
+.btn.ghost { background: transparent; color: var(--ink); box-shadow: 4px 4px 0 var(--ink); }
+.btn.ghost:hover { box-shadow: 7px 7px 0 var(--ink); }
+.btn.red { background: var(--red); border-color: var(--red); box-shadow: 4px 4px 0 var(--ink); }
+
+/* hamburger + mobile menu */
+.burger {
+  display: none; flex-direction: column; gap: 5px; align-items: center; justify-content: center;
+  width: 44px; height: 42px; background: transparent; border: 1.5px solid var(--paper); cursor: pointer;
+}
+.burger span { width: 20px; height: 2px; background: var(--paper); transition: transform .3s, opacity .2s; }
+.burger.open span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+.burger.open span:nth-child(2) { opacity: 0; }
+.burger.open span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+.mobile-menu { display: none; border-top: 1.5px solid var(--ink); background: var(--paper); padding: 8px 20px 22px; }
+.mobile-menu.open { display: flex; flex-direction: column; animation: menuIn .25s ease both; }
+@keyframes menuIn { from { opacity: 0; transform: translateY(-8px); } }
+.mobile-menu a { padding: 14px 4px; font-size: 16px; font-weight: 600; border-bottom: 1.5px dashed var(--line); }
+.mobile-menu a .mono-no { font-family: var(--mono); font-size: 10px; color: var(--red); margin-right: 12px; letter-spacing: .1em; }
+.mobile-menu a.btn { margin-top: 18px; justify-content: center; border-bottom: 0; font-size: 12.5px; }
+
+/* ============ HERO ============ */
+.hero { position: relative; padding: 88px 0 70px; border-bottom: 1.5px solid var(--ink); overflow: hidden; }
+.hero-grid { display: grid; grid-template-columns: 1.25fr .75fr; gap: 60px; align-items: center; position: relative; }
+.hero-kicker {
+  display: inline-flex; align-items: center; gap: 12px; margin-bottom: 28px;
+  border: 1.5px solid var(--ink); padding: 8px 16px; background: var(--paper-deep);
+}
+.hero-kicker .dot { width: 8px; height: 8px; border-radius: 50%; background: var(--red); animation: pulse 2s infinite; }
+@keyframes pulse { 50% { opacity: .3; } }
+h1 {
+  font-family: var(--display); font-weight: 560; font-size: clamp(52px, 7vw, 104px);
+  line-height: .98; letter-spacing: -.03em; font-variation-settings: "opsz" 144;
+}
+h1 .it { font-style: italic; font-weight: 420; color: var(--red); }
+h1 .ul { position: relative; white-space: nowrap; }
+h1 .ul::after {
+  content: ""; position: absolute; left: 0; right: 0; bottom: .04em; height: .1em;
+  background: var(--gold); z-index: -1; transform: scaleX(0); transform-origin: left;
+  animation: drawline 1s .9s cubic-bezier(.7,0,.3,1) forwards;
+}
+@keyframes drawline { to { transform: scaleX(1); } }
+.hero-sub { margin-top: 30px; font-size: 19px; max-width: 520px; color: var(--ink-soft); }
+.hero-sub strong { color: var(--ink); }
+.hero-ctas { margin-top: 38px; display: flex; gap: 18px; flex-wrap: wrap; }
+.hero-meta { margin-top: 44px; display: flex; gap: 32px; flex-wrap: wrap; }
+.hero-meta div { border-left: 2px solid var(--red); padding-left: 14px; }
+.hero-meta b { font-family: var(--display); font-size: 26px; font-weight: 700; display: block; line-height: 1.1; }
+.hero-meta span { font-family: var(--mono); font-size: 11px; letter-spacing: .12em; text-transform: uppercase; color: var(--ink-soft); }
+
+/* boarding pass card */
+.pass {
+  background: #FFFDF6; border: 1.5px solid var(--ink);
+  box-shadow: 10px 10px 0 var(--ink);
+  transform: rotate(2.5deg); position: relative;
+  transition: transform .4s cubic-bezier(.34,1.56,.64,1);
+}
+.pass:hover { transform: rotate(0deg) translateY(-4px); }
+.pass-top { background: var(--ink); color: var(--paper); padding: 14px 22px; display: flex; justify-content: space-between; align-items: center; }
+.pass-top .mono { font-size: 11px; }
+.pass-body { padding: 26px 22px 22px; }
+.pass-route { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+.pass-city b { font-family: var(--display); font-size: 42px; font-weight: 700; letter-spacing: -.02em; display: block; line-height: 1; }
+.pass-city span { font-family: var(--mono); font-size: 10.5px; letter-spacing: .14em; text-transform: uppercase; color: var(--ink-soft); }
+.pass-plane { flex: 1; position: relative; height: 24px; margin: 0 6px; }
+.pass-plane::before {
+  content: ""; position: absolute; top: 50%; left: 0; right: 0; height: 0;
+  border-top: 2px dashed var(--ink-soft);
+}
+.pass-plane svg { position: absolute; top: 50%; left: 0; transform: translateY(-50%); animation: fly 4s ease-in-out infinite; }
+@keyframes fly {
+  0% { left: 0; } 50% { left: calc(100% - 22px); } 100% { left: 0; }
+}
+.pass-divider { border-top: 2px dashed var(--line); margin: 22px -22px; position: relative; }
+.pass-divider::before, .pass-divider::after {
+  content: ""; position: absolute; top: -11px; width: 22px; height: 22px; border-radius: 50%;
+  background: var(--paper); border: 1.5px solid var(--ink);
+}
+.pass-divider::before { left: -13px; clip-path: inset(0 0 0 50%); }
+.pass-divider::after { right: -13px; clip-path: inset(0 50% 0 0); }
+.pass-details { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
+.pass-details span { font-family: var(--mono); font-size: 9.5px; letter-spacing: .14em; text-transform: uppercase; color: var(--ink-soft); display: block; }
+.pass-details b { font-size: 15px; font-weight: 700; }
+.pass-barcode { margin-top: 20px; height: 44px;
+  background: repeating-linear-gradient(90deg, var(--ink) 0 2px, transparent 2px 5px, var(--ink) 5px 6px, transparent 6px 11px, var(--ink) 11px 14px, transparent 14px 17px);
+}
+/* visa stamp overlay */
+.stamp {
+  position: absolute; top: -34px; right: -26px; width: 130px; height: 130px;
+  transform: rotate(12deg); z-index: 5; opacity: 0; animation: stampIn .5s 1.4s cubic-bezier(.34,1.7,.64,1) forwards;
+}
+@keyframes stampIn { from { opacity: 0; transform: rotate(12deg) scale(2.2); } to { opacity: 1; transform: rotate(12deg) scale(1); } }
+.stamp svg { width: 100%; height: 100%; }
+
+/* flight path background doodle */
+.hero-path { position: absolute; inset: 0; pointer-events: none; z-index: -1; opacity: .5; }
+.hero-path path { stroke-dasharray: 6 10; animation: dashmove 30s linear infinite; }
+@keyframes dashmove { to { stroke-dashoffset: -640; } }
+
+/* ============ MARQUEE ============ */
+.marquee { border-bottom: 1.5px solid var(--ink); background: var(--ink); color: var(--paper); overflow: hidden; padding: 14px 0; }
+.marquee-track { display: flex; gap: 0; width: max-content; animation: scroll 28s linear infinite; }
+.marquee:hover .marquee-track { animation-play-state: paused; }
+@keyframes scroll { to { transform: translateX(-50%); } }
+.marquee-item { font-family: var(--mono); font-size: 13px; letter-spacing: .18em; text-transform: uppercase; padding: 0 28px; display: flex; align-items: center; gap: 28px; white-space: nowrap; }
+.marquee-item::after { content: "✈"; color: var(--gold); font-size: 14px; }
+
+/* ============ SECTION SCAFFOLD ============ */
+section { padding: 96px 0; }
+.sec-head { display: flex; align-items: flex-end; justify-content: space-between; gap: 24px; margin-bottom: 56px; flex-wrap: wrap; }
+.sec-tag { display: inline-flex; align-items: center; gap: 10px; margin-bottom: 18px; }
+.sec-tag::before { content: ""; width: 34px; height: 2px; background: var(--red); }
+h2 { font-family: var(--display); font-weight: 600; font-size: clamp(36px, 4.4vw, 58px); line-height: 1.04; letter-spacing: -.025em; }
+h2 .it { font-style: italic; font-weight: 430; color: var(--red); }
+
+/* AOS custom animation: reveal postcards without losing their tilt */
+[data-aos="postcard-in"] { opacity: 0; transform: translateY(44px) rotate(var(--tilt, 0deg)); transition-property: transform, opacity; }
+[data-aos="postcard-in"].aos-animate { opacity: 1; transform: translateY(0) rotate(var(--tilt, 0deg)); }
+[data-aos="postcard-in"].aos-animate:hover { transform: rotate(0deg); transition: transform .35s cubic-bezier(.34,1.56,.64,1); }
+
+/* ============ SERVICES (ticket stubs) ============ */
+.services { border-bottom: 1.5px solid var(--ink); background: var(--paper-deep); }
+.svc-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 26px; }
+.svc {
+  background: #FFFDF6; border: 1.5px solid var(--ink); padding: 30px 26px 26px; position: relative;
+  transition: transform .3s cubic-bezier(.22,1,.36,1), box-shadow .3s;
+}
+.svc:hover { transform: translateY(-6px); box-shadow: 8px 8px 0 var(--ink); }
+.svc::before { content: ""; position: absolute; top: 0; left: 0; right: 0; height: 7px; background: var(--airmail); }
+.svc-num { font-family: var(--mono); font-size: 11px; color: var(--red); letter-spacing: .16em; }
+.svc h3 { font-family: var(--display); font-size: 25px; font-weight: 650; margin: 12px 0 10px; letter-spacing: -.01em; }
+.svc p { font-size: 15.5px; color: var(--ink-soft); }
+.svc .icon { position: absolute; top: 26px; right: 22px; width: 38px; height: 38px; color: var(--blue); opacity: .85; }
+
+/* ============ DESTINATIONS ============ */
+.globe-box { width: 340px; height: 340px; align-self: center; margin-bottom: -30px; touch-action: none; }
+.globe-box canvas { display: block; }
+.dest-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 22px; }
+.dest {
+  border: 1.5px solid var(--ink); background: #FFFDF6; padding: 26px 22px; position: relative; overflow: hidden;
+  min-height: 210px; display: flex; flex-direction: column; justify-content: flex-end;
+  transition: background .3s;
+}
+.dest:hover { background: var(--ink); }
+.dest:hover h3, .dest:hover .dest-flag { color: var(--paper); }
+.dest:hover .dest-meta { color: var(--gold); }
+.dest-flag { font-size: 36px; line-height: 1; margin-bottom: auto; }
+.dest h3 { font-family: var(--display); font-size: 27px; font-weight: 650; transition: color .3s; letter-spacing: -.01em; }
+.dest-meta { font-family: var(--mono); font-size: 10.5px; letter-spacing: .12em; text-transform: uppercase; color: var(--ink-soft); margin-top: 8px; transition: color .3s; }
+.dest .ring {
+  position: absolute; top: -28px; right: -28px; width: 96px; height: 96px; border: 2px solid var(--red);
+  border-radius: 50%; opacity: .18; transition: transform .45s cubic-bezier(.22,1,.36,1), opacity .3s;
+}
+.dest:hover .ring { transform: scale(1.5); opacity: .4; border-color: var(--gold); }
+
+/* ============ UNIVERSITIES (departures board) ============ */
+.unis { border-top: 1.5px solid var(--ink); background: var(--paper-deep); }
+.uni-tabs { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 30px; }
+.uni-tab {
+  font-family: var(--mono); font-size: 11px; letter-spacing: .12em; text-transform: uppercase;
+  background: transparent; color: var(--ink); border: 1.5px solid var(--ink);
+  padding: 9px 16px; cursor: pointer; transition: background .2s, color .2s, box-shadow .2s, transform .2s;
+}
+.uni-tab:hover { box-shadow: 3px 3px 0 var(--ink); transform: translate(-1px,-1px); }
+.uni-tab.active { background: var(--ink); color: var(--paper); box-shadow: 3px 3px 0 var(--red); }
+.uni-tab b { color: var(--red); font-weight: 600; margin-left: 7px; }
+.uni-tab.active b { color: var(--gold); }
+.board { background: var(--ink); border: 1.5px solid var(--ink); box-shadow: 10px 10px 0 var(--line); }
+.board-top { display: flex; justify-content: space-between; align-items: center; gap: 16px; flex-wrap: wrap; padding: 16px 24px; border-bottom: 2px dashed #6B3F68; }
+.board-top .mono { color: var(--gold); }
+.board-top .blink { width: 9px; height: 9px; border-radius: 50%; background: #5CC97E; animation: pulse 1.6s infinite; display: inline-block; margin-right: 10px; }
+.board-head, .brow { display: grid; grid-template-columns: 86px 1fr 200px 130px; gap: 16px; align-items: center; padding: 13px 24px; }
+.board-head { color: #9F719A; font-family: var(--mono); font-size: 10px; letter-spacing: .16em; text-transform: uppercase; border-bottom: 1px solid #6B3F68; }
+.board-body { max-height: 520px; overflow-y: auto; scrollbar-width: thin; scrollbar-color: var(--gold) transparent; }
+.board-body::-webkit-scrollbar { width: 8px; }
+.board-body::-webkit-scrollbar-thumb { background: var(--gold); }
+.brow { border-bottom: 1px dashed #5C355A; color: var(--paper); animation: rowIn .45s both; cursor: pointer; }
+.brow:last-child { border-bottom: 0; }
+.brow:hover, .brow:focus-visible { background: rgba(246,241,229,.06); outline: none; }
+.brow:hover .uni, .brow:focus-visible .uni { color: var(--gold); }
+.brow .uni { transition: color .2s; }
+.brow .uni::after { content: " ↗"; font-size: 12px; color: var(--gold); opacity: 0; transition: opacity .2s; }
+.brow:hover .uni::after, .brow:focus-visible .uni::after { opacity: 1; }
+.brow .code { font-family: var(--mono); font-size: 12px; color: var(--gold); letter-spacing: .1em; }
+.brow .uni { font-size: 15.5px; font-weight: 600; }
+.brow .ctry { font-family: var(--mono); font-size: 10.5px; letter-spacing: .12em; text-transform: uppercase; color: #C09ABA; }
+.brow .status { font-family: var(--mono); font-size: 10.5px; letter-spacing: .12em; text-transform: uppercase; color: #5CC97E; }
+.brow .status.gold { color: var(--gold); }
+@keyframes rowIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
+
+/* university detail modal (passport page) */
+.uni-modal { position: fixed; inset: 0; z-index: 300; display: none; align-items: center; justify-content: center; padding: 24px; }
+.uni-modal.open { display: flex; }
+.uni-modal .scrim { position: absolute; inset: 0; background: rgba(60,8,58,.6); backdrop-filter: blur(3px); }
+body.modal-open { overflow: hidden; }
+.uni-card {
+  position: relative; background: var(--paper); border: 1.5px solid var(--ink);
+  box-shadow: 12px 12px 0 var(--ink); width: min(580px, 100%); max-height: 88vh; overflow-y: auto;
+  animation: cardIn .35s cubic-bezier(.34,1.4,.64,1) both;
+}
+@keyframes cardIn { from { opacity: 0; transform: translateY(28px) scale(.96); } }
+.uni-card .stripe { height: 8px; background: var(--airmail); }
+.uni-card .photo { height: 250px; border-bottom: 1.5px solid var(--ink); background: var(--paper-deep); position: relative; overflow: hidden; }
+.uni-card .photo img { width: 100%; height: 100%; object-fit: cover; }
+.uni-card .photo.ph { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px; }
+.uni-card .photo.ph .mark {
+  width: 110px; height: 110px; border: 2.5px solid var(--red); border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  font-family: var(--display); font-style: italic; font-weight: 500; font-size: 56px; color: var(--red);
+  transform: rotate(-8deg);
+}
+.uni-card .photo.ph .mono { color: var(--ink-soft); }
+.uni-card .photo .code-chip {
+  position: absolute; top: 14px; left: 14px; background: var(--ink); color: var(--gold);
+  font-family: var(--mono); font-size: 11px; letter-spacing: .14em; padding: 7px 12px;
+}
+.uni-card .body { padding: 28px 28px 28px; }
+.uni-card .body h3 { font-family: var(--display); font-size: 30px; font-weight: 650; line-height: 1.1; letter-spacing: -.015em; }
+.uni-card .meta { display: flex; gap: 14px; flex-wrap: wrap; margin: 12px 0 16px; }
+.uni-card .meta span { font-family: var(--mono); font-size: 10.5px; letter-spacing: .13em; text-transform: uppercase; color: var(--red); border: 1.5px solid var(--line); background: var(--paper-deep); padding: 6px 11px; }
+.uni-card .body p { font-size: 15.5px; color: var(--ink-soft); }
+.uni-card .actions { display: flex; gap: 14px; flex-wrap: wrap; margin-top: 24px; }
+.uni-card .close {
+  position: absolute; top: 18px; right: 18px; z-index: 5; width: 38px; height: 38px;
+  background: var(--paper); border: 1.5px solid var(--ink); border-radius: 50%;
+  font-size: 17px; line-height: 1; cursor: pointer; color: var(--ink);
+  display: flex; align-items: center; justify-content: center;
+  transition: transform .2s, background .2s, color .2s;
+}
+.uni-card .close:hover { background: var(--red); color: var(--paper); transform: rotate(90deg); }
+
+/* ============ PROCESS ============ */
+.process { background: var(--ink); color: var(--paper); border-bottom: 1.5px solid var(--ink); }
+.process .sec-tag::before { background: var(--gold); }
+.process h2 .it { color: var(--gold); }
+.steps { display: grid; grid-template-columns: repeat(5, 1fr); gap: 0; border: 1.5px solid var(--paper); }
+.step { padding: 30px 22px 36px; border-right: 1.5px solid var(--paper); position: relative; transition: background .3s; }
+.step:last-child { border-right: 0; }
+.step:hover { background: rgba(246,241,229,.07); }
+.step-no {
+  font-family: var(--display); font-style: italic; font-size: 50px; font-weight: 350;
+  color: var(--gold); line-height: 1; display: block;
+}
+.step h3 { font-family: var(--display); font-size: 20px; font-weight: 600; margin: 18px 0 8px; }
+.step p { font-size: 14px; color: #D9BFD6; line-height: 1.55; }
+.step .mono { color: var(--gold); display: block; margin-top: 14px; font-size: 10px; }
+
+/* ============ TESTIMONIALS (postcards) ============ */
+.cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px; }
+.postcard {
+  background: #FFFDF6; border: 1.5px solid var(--ink); padding: 28px 26px;
+  position: relative; box-shadow: 7px 7px 0 var(--paper-deep);
+  transform: rotate(var(--tilt, 0deg));
+}
+.postcard:nth-child(1) { --tilt: -1.3deg; }
+.postcard:nth-child(2) { --tilt: .8deg; }
+.postcard:nth-child(3) { --tilt: -.6deg; }
+.postcard:hover { transform: rotate(0); transition: transform .35s cubic-bezier(.34,1.56,.64,1); }
+.postcard .pc-stamp {
+  position: absolute; top: 16px; right: 16px; width: 46px; height: 56px;
+  border: 1.5px solid var(--red); background: var(--paper-deep);
+  display: flex; align-items: center; justify-content: center; font-size: 22px;
+  box-shadow: 0 0 0 3px #FFFDF6, 0 0 0 4.5px var(--line);
+}
+.postcard blockquote { font-family: var(--display); font-style: italic; font-weight: 430; font-size: 19.5px; line-height: 1.45; letter-spacing: -.01em; padding-right: 48px; }
+.postcard .who { margin-top: 22px; border-top: 2px dashed var(--line); padding-top: 16px; display: flex; justify-content: space-between; align-items: baseline; }
+.postcard .who b { font-size: 15px; }
+.postcard .who span { font-family: var(--mono); font-size: 10px; letter-spacing: .12em; text-transform: uppercase; color: var(--red); }
+
+/* ============ CTA ============ */
+.cta { border-top: 1.5px solid var(--ink); background: var(--blue); color: var(--paper); position: relative; overflow: hidden; }
+.cta::before {
+  content: "✈"; position: absolute; left: -1000px; top: 50%;
+  font-size: 380px; line-height: 1; opacity: .09;
+  padding-left: 400px; /* room for the contrail behind the plane */
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,.55));
+  background-repeat: no-repeat; background-size: 400px 5px; background-position: 0 57%;
+  animation: ctaFlyX 26s linear infinite, ctaFlyBob 26s ease-in-out infinite;
+  will-change: transform, left;
+}
+@keyframes ctaFlyX { from { left: -1000px; } to { left: 100vw; } }
+@keyframes ctaFlyBob { /* climb -> cruise -> descend, with pitch & perspective */
+  0%   { transform: translateY(-40%) rotate(-6deg)  scale(.84); opacity: .06; }
+  25%  { transform: translateY(-58%) rotate(-13deg) scale(.96); opacity: .09; }
+  50%  { transform: translateY(-68%) rotate(-8deg)  scale(1.06); opacity: .12; }
+  75%  { transform: translateY(-54%) rotate(-13deg) scale(.97); opacity: .09; }
+  100% { transform: translateY(-42%) rotate(-7deg)  scale(.86); opacity: .06; }
+}
+@media (prefers-reduced-motion: reduce) { .cta::before { animation: none; left: 40vw; transform: translateY(-50%) rotate(-12deg); } }
+.cta-inner { display: grid; grid-template-columns: 1.2fr .8fr; gap: 60px; align-items: center; }
+.cta h2 { color: var(--paper); }
+.cta h2 .it { color: var(--gold); }
+.cta p { margin-top: 18px; font-size: 18px; color: #E9CFE4; max-width: 480px; }
+.cta-box { background: var(--paper); color: var(--ink); border: 1.5px solid var(--ink); box-shadow: 10px 10px 0 var(--ink); padding: 34px 30px; }
+.cta-box h3 { font-family: var(--display); font-size: 26px; font-weight: 650; margin-bottom: 6px; }
+.cta-box .mono { color: var(--red); display: block; margin-bottom: 22px; }
+.cta-row { display: flex; align-items: center; gap: 14px; padding: 13px 0; border-bottom: 1.5px dashed var(--line); font-size: 15.5px; font-weight: 500; }
+.cta-row:last-of-type { border-bottom: 0; }
+.cta-row svg { width: 19px; height: 19px; color: var(--red); flex: none; }
+.cta-box .btn { width: 100%; justify-content: center; margin-top: 24px; }
+
+/* ============ FOOTER ============ */
+footer { background: var(--ink); color: var(--paper); padding: 60px 0 36px; }
+.foot-grid { display: flex; justify-content: space-between; gap: 40px; flex-wrap: wrap; margin-bottom: 48px; }
+.foot-grid .logo-mark { color: var(--paper); font-size: 28px; }
+.foot-tag { margin-top: 12px; max-width: 300px; font-size: 14.5px; color: #C09ABA; }
+.foot-col h4 { font-family: var(--mono); font-size: 11px; letter-spacing: .16em; text-transform: uppercase; color: var(--gold); margin-bottom: 16px; font-weight: 600; }
+.foot-col a { display: block; font-size: 14.5px; padding: 5px 0; color: #E0C8DC; transition: color .2s, padding-left .2s; }
+.foot-col a:hover { color: var(--paper); padding-left: 6px; }
+.foot-base { border-top: 1px solid #5E355B; padding-top: 24px; display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; font-family: var(--mono); font-size: 11px; letter-spacing: .1em; text-transform: uppercase; color: #9F719A; }
+
+/* ============ RESPONSIVE ============ */
+@media (max-width: 1000px) {
+  .hero-grid { grid-template-columns: 1fr; gap: 56px; }
+  .pass { max-width: 460px; }
+  .svc-grid, .cards { grid-template-columns: 1fr 1fr; }
+  .dest-grid { grid-template-columns: 1fr 1fr; }
+  .steps { grid-template-columns: 1fr; }
+  .step { border-right: 0; border-bottom: 1.5px solid var(--paper); }
+  .step:last-child { border-bottom: 0; }
+  .cta-inner { grid-template-columns: 1fr; }
+}
+@media (max-width: 760px) {
+  .nav-links { display: none; }
+  .burger { display: flex; }
+  .logo-sub { display: none; }
+}
+@media (max-width: 640px) {
+  .board-head { display: none; }
+  .brow { grid-template-columns: 1fr auto; grid-template-rows: auto auto; gap: 3px 12px; padding: 12px 16px; }
+  .brow .code { display: none; }
+  .brow .uni { grid-area: 1 / 1; font-size: 14.5px; }
+  .brow .status { grid-area: 1 / 2; }
+  .brow .ctry { grid-area: 2 / 1; }
+  .globe-box { width: 260px; height: 260px; margin: 0 auto -10px; }
+  .svc-grid, .cards, .dest-grid { grid-template-columns: 1fr; }
+  section { padding: 64px 0; }
+  .wrap { padding: 0 20px; }
+  .nav-inner { padding: 14px 20px; }
+  .stamp { width: 96px; height: 96px; top: -24px; right: -10px; }
+}
+</style>
+</head>
+<body>
+
+<div class="airmail-edge"></div>
+
+<!-- ============ NAV ============ -->
+<nav>
+  <div class="nav-inner">
+    <a href="#" class="logo">
+      <img class="logo-img" src="img/eduadvise-logo.svg" alt="EduAdvise International">
+    </a>
+    <div class="nav-links">
+      <a class="link" href="#services">Services</a>
+      <a class="link" href="#destinations">Destinations</a>
+      <a class="link" href="#universities">Universities</a>
+      <a class="link" href="#process">How it works</a>
+      <a class="link" href="#stories">Stories</a>
+      <a class="btn red" href="#contact">Free Counselling</a>
+    </div>
+    <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#services"><span class="mono-no">01</span>Services</a>
+    <a href="#destinations"><span class="mono-no">02</span>Destinations</a>
+    <a href="#universities"><span class="mono-no">03</span>Universities</a>
+    <a href="#process"><span class="mono-no">04</span>How it works</a>
+    <a href="#stories"><span class="mono-no">05</span>Stories</a>
+    <a class="btn red" href="#contact">Book Free Counselling</a>
+  </div>
+</nav>
+
+<!-- ============ HERO ============ -->
+<header class="hero">
+  <svg class="hero-path" viewBox="0 0 1400 700" fill="none" preserveAspectRatio="xMidYMid slice">
+    <path id="fp-blue" d="M-50 620 C 250 480, 420 640, 700 420 S 1150 120, 1480 60" stroke="#660066" stroke-width="2"/>
+    <path id="fp-red" d="M-50 180 C 300 280, 600 80, 900 200 S 1300 380, 1480 300" stroke="#F76A0C" stroke-width="2"/>
+    <path fill="#660066" transform="rotate(90) scale(1.1) translate(-12 -12)"
+      d="M21.5 15.5L13 11V4.5a1.5 1.5 0 0 0-3 0V11l-8.5 4.5v2l8.5-2.5v5l-2.5 1.8v1.7l4-1 4 1v-1.7L13 20v-5l8.5 2.5v-2z">
+      <animateMotion dur="22s" repeatCount="indefinite" rotate="auto">
+        <mpath href="#fp-blue"/>
+      </animateMotion>
+    </path>
+    <path fill="#F76A0C" transform="rotate(90) scale(1.1) translate(-12 -12)"
+      d="M21.5 15.5L13 11V4.5a1.5 1.5 0 0 0-3 0V11l-8.5 4.5v2l8.5-2.5v5l-2.5 1.8v1.7l4-1 4 1v-1.7L13 20v-5l8.5 2.5v-2z">
+      <animateMotion dur="28s" begin="-12s" repeatCount="indefinite" rotate="auto">
+        <mpath href="#fp-red"/>
+      </animateMotion>
+    </path>
+  </svg>
+  <div class="wrap hero-grid">
+    <div>
+      <div class="hero-kicker" data-aos="fade-down">
+        <span class="dot"></span>
+        <span class="mono">Study Abroad Consultants · Margao, Goa</span>
+      </div>
+      <h1 data-aos="fade-up">Your boarding pass to a <span class="it">world-class</span> <span class="ul">education.</span></h1>
+      <p class="hero-sub" data-aos="fade-up" data-aos-delay="150">From <strong>Margao to Melbourne, London, Toronto & beyond</strong> — we guide Goan students through every stamp, signature and milestone of the study-abroad journey.</p>
+      <div class="hero-ctas" data-aos="fade-up" data-aos-delay="250">
+        <a class="btn red" href="#contact">Book free counselling
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+        <a class="btn ghost" href="#destinations">Explore destinations</a>
+      </div>
+      <div class="hero-meta" data-aos="fade-up" data-aos-delay="350">
+        <div><b>1,200+</b><span>Students placed</span></div>
+        <div><b>45+</b><span>Partner universities</span></div>
+        <div><b>98%</b><span>Visa success rate</span></div>
+        <div><b>12 yrs</b><span>Of expertise</span></div>
+      </div>
+    </div>
+
+    <!-- boarding pass -->
+    <div class="pass">
+      <div class="stamp">
+        <svg viewBox="0 0 130 130">
+          <defs><path id="circ" d="M65,65 m-46,0 a46,46 0 1,1 92,0 a46,46 0 1,1 -92,0"/></defs>
+          <circle cx="65" cy="65" r="58" fill="none" stroke="#F76A0C" stroke-width="3"/>
+          <circle cx="65" cy="65" r="46" fill="none" stroke="#F76A0C" stroke-width="1.5"/>
+          <text fill="#F76A0C" font-family="Azeret Mono, monospace" font-size="11.5" font-weight="600" letter-spacing="3">
+            <textPath href="#circ">ADMISSION GRANTED · EDUADVISE · </textPath>
+          </text>
+          <text x="65" y="61" text-anchor="middle" fill="#F76A0C" font-family="Azeret Mono, monospace" font-weight="600" font-size="13">VISA</text>
+          <text x="65" y="78" text-anchor="middle" fill="#F76A0C" font-family="Azeret Mono, monospace" font-weight="600" font-size="13">APPROVED</text>
+        </svg>
+      </div>
+      <div class="pass-top">
+        <span class="mono">EduAdvise Airways</span>
+        <span class="mono" style="color:var(--gold)">First Class</span>
+      </div>
+      <div class="pass-body">
+        <div class="pass-route">
+          <div class="pass-city"><b>GOI</b><span>Goa, India</span></div>
+          <div class="pass-plane">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="#470747"><path d="M21.5 15.5L13 11V4.5a1.5 1.5 0 0 0-3 0V11l-8.5 4.5v2l8.5-2.5v5l-2.5 1.8v1.7l4-1 4 1v-1.7L13 20v-5l8.5 2.5v-2z"/></svg>
+          </div>
+          <div class="pass-city" style="text-align:right"><b>LON</b><span>London, UK</span></div>
+        </div>
+        <div class="pass-divider"></div>
+        <div class="pass-details">
+          <div><span>Passenger</span><b>Future You</b></div>
+          <div><span>Intake</span><b>Sept 2026</b></div>
+          <div><span>Gate</span><b>Open</b></div>
+          <div><span>Course</span><b>MSc / MBA / UG</b></div>
+          <div><span>Scholarship</span><b>Available</b></div>
+          <div><span>Seat</span><b>Yours</b></div>
+        </div>
+        <div class="pass-barcode"></div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- ============ MARQUEE ============ -->
+<div class="marquee" aria-hidden="true">
+  <div class="marquee-track">
+    <span class="marquee-item">United Kingdom</span><span class="marquee-item">Australia</span><span class="marquee-item">Canada</span><span class="marquee-item">United States</span><span class="marquee-item">Ireland</span><span class="marquee-item">New Zealand</span><span class="marquee-item">Germany</span><span class="marquee-item">Dubai</span>
+    <span class="marquee-item">United Kingdom</span><span class="marquee-item">Australia</span><span class="marquee-item">Canada</span><span class="marquee-item">United States</span><span class="marquee-item">Ireland</span><span class="marquee-item">New Zealand</span><span class="marquee-item">Germany</span><span class="marquee-item">Dubai</span>
+  </div>
+</div>
+
+<!-- ============ SERVICES ============ -->
+<section class="services" id="services">
+  <div class="wrap">
+    <div class="sec-head" data-aos="fade-up">
+      <div>
+        <div class="sec-tag"><span class="mono">Our Services</span></div>
+        <h2>Everything between <span class="it">"someday"</span><br>and departure day.</h2>
+      </div>
+      <a class="btn ghost" href="#contact">Talk to a counsellor</a>
+    </div>
+    <div class="svc-grid">
+      <div class="svc" data-aos="fade-up">
+        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M8 9h8M8 13h5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"/></svg>
+        <span class="svc-num">№ 01</span>
+        <h3>Career Counselling</h3>
+        <p>One-to-one sessions to map your strengths, budget and ambitions to the right course and country — free, always.</p>
+      </div>
+      <div class="svc" data-aos="fade-up">
+        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 3 2 8.5 12 14l10-5.5L12 3ZM5 11v5c0 1.5 3 3 7 3s7-1.5 7-3v-5"/></svg>
+        <span class="svc-num">№ 02</span>
+        <h3>University Selection</h3>
+        <p>Shortlists built from 45+ partner universities across 10 countries, balanced across dream, match and safe options.</p>
+      </div>
+      <div class="svc" data-aos="fade-up">
+        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M14 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9l-6-6ZM14 3v6h6M9 14l2 2 4-4"/></svg>
+        <span class="svc-num">№ 03</span>
+        <h3>Applications & SOPs</h3>
+        <p>Polished applications, statements of purpose and references that make admissions officers look twice.</p>
+      </div>
+      <div class="svc" data-aos="fade-up">
+        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 7h18v13H3zM3 7l4-4h10l4 4M12 11v5M9.5 13.5h5"/></svg>
+        <span class="svc-num">№ 04</span>
+        <h3>Visa Guidance</h3>
+        <p>Document checklists, mock interviews and financial guidance behind our 98% visa success rate.</p>
+      </div>
+      <div class="svc" data-aos="fade-up">
+        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 19V5a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v14M4 19h16M4 19l4-7 3 4 4-6 5 9"/></svg>
+        <span class="svc-num">№ 05</span>
+        <h3>Test Preparation</h3>
+        <p>IELTS, PTE and Duolingo coaching with weekly mocks — taught right here in Margao or online.</p>
+      </div>
+      <div class="svc" data-aos="fade-up">
+        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 21s-7-5.5-7-11a7 7 0 0 1 14 0c0 5.5-7 11-7 11ZM12 12a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"/></svg>
+        <span class="svc-num">№ 06</span>
+        <h3>Pre-Departure & Beyond</h3>
+        <p>Forex, flights, accommodation and airport pickup — plus an alumni network waiting on the other side.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ DESTINATIONS ============ -->
+<section id="destinations">
+  <div class="wrap">
+    <div class="sec-head" data-aos="fade-up">
+      <div>
+        <div class="sec-tag"><span class="mono">Destinations</span></div>
+        <h2>Eight countries.<br>One <span class="it">departure lounge.</span></h2>
+      </div>
+      <div class="globe-box" id="globeBox" data-aos="zoom-in" aria-label="Rotating 3D globe with flight routes from Goa"></div>
+    </div>
+    <div class="dest-grid">
+      <a class="dest" data-aos="zoom-in" href="#contact"><div class="ring"></div><span class="dest-flag">🇬🇧</span><h3>United Kingdom</h3><span class="dest-meta">1-yr Masters · Post-study visa</span></a>
+      <a class="dest" data-aos="zoom-in" href="#contact"><div class="ring"></div><span class="dest-flag">🇦🇺</span><h3>Australia</h3><span class="dest-meta">Work rights · PR pathways</span></a>
+      <a class="dest" data-aos="zoom-in" href="#contact"><div class="ring"></div><span class="dest-flag">🇨🇦</span><h3>Canada</h3><span class="dest-meta">Co-op programs · PGWP</span></a>
+      <a class="dest" data-aos="zoom-in" href="#contact"><div class="ring"></div><span class="dest-flag">🇺🇸</span><h3>United States</h3><span class="dest-meta">STEM OPT · Scholarships</span></a>
+      <a class="dest" data-aos="zoom-in" href="#contact"><div class="ring"></div><span class="dest-flag">🇮🇪</span><h3>Ireland</h3><span class="dest-meta">Tech hub · 2-yr stay-back</span></a>
+      <a class="dest" data-aos="zoom-in" href="#contact"><div class="ring"></div><span class="dest-flag">🇳🇿</span><h3>New Zealand</h3><span class="dest-meta">Quality of life · Work visa</span></a>
+      <a class="dest" data-aos="zoom-in" href="#contact"><div class="ring"></div><span class="dest-flag">🇩🇪</span><h3>Germany</h3><span class="dest-meta">Low tuition · Engineering</span></a>
+      <a class="dest" data-aos="zoom-in" href="#contact"><div class="ring"></div><span class="dest-flag">🇦🇪</span><h3>Dubai, UAE</h3><span class="dest-meta">Close to home · Global campuses</span></a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ UNIVERSITIES ============ -->
+<section class="unis" id="universities">
+  <div class="wrap">
+    <div class="sec-head" data-aos="fade-up">
+      <div>
+        <div class="sec-tag"><span class="mono">Partner Universities</span></div>
+        <h2>Now boarding: the <span class="it">departures</span> board.</h2>
+      </div>
+      <a class="btn ghost" href="#contact">Get matched to one</a>
+    </div>
+    <div class="uni-tabs" id="uniTabs" data-aos="fade-up"></div>
+    <div class="board" data-aos="fade-up" data-aos-delay="100">
+      <div class="board-top">
+        <span class="mono"><span class="blink"></span>Live · 45+ partner campuses</span>
+        <span class="mono">Intakes: Jan · May · Sept</span>
+      </div>
+      <div class="board-head"><span>Code</span><span>University</span><span>Destination</span><span>Status</span></div>
+      <div class="board-body" id="boardBody"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PROCESS ============ -->
+<section class="process" id="process">
+  <div class="wrap">
+    <div class="sec-head" data-aos="fade-up">
+      <div>
+        <div class="sec-tag"><span class="mono" style="color:var(--gold)">How it works</span></div>
+        <h2>Check-in to <span class="it">take-off</span>,<br>in five stamps.</h2>
+      </div>
+    </div>
+    <div class="steps">
+      <div class="step" data-aos="fade-up"><span class="step-no">01</span><h3>Check-in</h3><p>Free counselling session — in our Margao office or on a call. We map your profile, budget and goals.</p><span class="mono">Week 0</span></div>
+      <div class="step" data-aos="fade-up"><span class="step-no">02</span><h3>Shortlist</h3><p>A curated list of universities and courses, with honest odds for each — no inflated promises.</p><span class="mono">Week 1–2</span></div>
+      <div class="step" data-aos="fade-up"><span class="step-no">03</span><h3>Apply</h3><p>We prepare and submit applications, SOPs and references, then chase every offer letter for you.</p><span class="mono">Week 3–8</span></div>
+      <div class="step" data-aos="fade-up"><span class="step-no">04</span><h3>Visa</h3><p>Financial documentation, forms and mock interviews until your visa is stamped and certain.</p><span class="mono">Week 9–14</span></div>
+      <div class="step" data-aos="fade-up"><span class="step-no">05</span><h3>Take-off</h3><p>Flights, forex, housing and a pre-departure briefing. We're still one WhatsApp away after you land.</p><span class="mono">Departure ✈</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TESTIMONIALS ============ -->
+<section id="stories">
+  <div class="wrap">
+    <div class="sec-head" data-aos="fade-up">
+      <div>
+        <div class="sec-tag"><span class="mono">Postcards Home</span></div>
+        <h2>Notes from <span class="it">the other side</span><br>of the journey.</h2>
+      </div>
+    </div>
+    <div class="cards">
+      <div class="postcard" data-aos="postcard-in">
+        <div class="pc-stamp">🇬🇧</div>
+        <blockquote>"I walked into the Margao office with average grades and walked out, eight months later, with an offer from a Russell Group university. They never once oversold me."</blockquote>
+        <div class="who"><b>Sairaj Naik</b><span>MSc · Manchester</span></div>
+      </div>
+      <div class="postcard" data-aos="postcard-in">
+        <div class="pc-stamp">🇨🇦</div>
+        <blockquote>"The visa file they prepared was so thorough my interview lasted four minutes. My parents finally stopped worrying — that alone was worth it."</blockquote>
+        <div class="who"><b>Lara D'Souza</b><span>Co-op · Toronto</span></div>
+      </div>
+      <div class="postcard" data-aos="postcard-in">
+        <div class="pc-stamp">🇦🇺</div>
+        <blockquote>"From IELTS coaching to airport pickup in Melbourne, every single step was handled. It felt less like an agency, more like family with a checklist."</blockquote>
+        <div class="who"><b>Aaron Fernandes</b><span>MBA · Melbourne</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CTA ============ -->
+<section class="cta" id="contact">
+  <div class="wrap cta-inner">
+    <div data-aos="fade-right">
+      <h2>The world is boarding.<br><span class="it">Don't miss your gate.</span></h2>
+      <p>Book a free counselling session — no fees, no pressure, just an honest map of your options from Goa's most trusted study-abroad team.</p>
+    </div>
+    <div class="cta-box" data-aos="fade-left" data-aos-delay="150">
+      <h3>Visit or call us</h3>
+      <span class="mono">Certified British Council Agent · Margao</span>
+      <div class="cta-row">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s-7-5.5-7-11a7 7 0 0 1 14 0c0 5.5-7 11-7 11ZM12 12a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"/></svg>
+        Noronha Dias Complex, Old Market, Margao, Goa 403601
+      </div>
+      <a class="cta-row" href="tel:+917972940456">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92Z"/></svg>
+        +91 79729 40456
+      </a>
+      <a class="cta-row" href="mailto:enquiries@eduadvise.in">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16v16H4zM4 6l8 7 8-7"/></svg>
+        enquiries@eduadvise.in
+      </a>
+      <div class="cta-row">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg>
+        Mon–Sat · 9:30 am – 6:30 pm
+      </div>
+      <a class="btn red" href="mailto:enquiries@eduadvise.in">Book my free session</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <img class="logo-img" src="img/eduadvise-logo.svg" alt="EduAdvise International" style="height:64px">
+        <p class="foot-tag">Study-abroad counselling, applications, visas and test prep — from the heart of Margao since 2014.</p>
+      </div>
+      <div class="foot-col">
+        <h4>Explore</h4>
+        <a href="#services">Services</a>
+        <a href="#destinations">Destinations</a>
+        <a href="#universities">Universities</a>
+        <a href="#process">How it works</a>
+        <a href="#stories">Student stories</a>
+      </div>
+      <div class="foot-col">
+        <h4>Destinations</h4>
+        <a href="#destinations">United Kingdom</a>
+        <a href="#destinations">Australia</a>
+        <a href="#destinations">Canada</a>
+        <a href="#destinations">All countries →</a>
+      </div>
+      <div class="foot-col">
+        <h4>Contact</h4>
+        <a href="mailto:enquiries@eduadvise.in">enquiries@eduadvise.in</a>
+        <a href="tel:+917972940456">+91 79729 40456</a>
+        <a href="#contact">Old Market, Margao, Goa</a>
+      </div>
+    </div>
+    <div class="foot-base">
+      <span>© 2026 EduAdvise International</span>
+      <span>GOI ✈ The World</span>
+    </div>
+  </div>
+</footer>
+
+<div class="airmail-edge"></div>
+
+<!-- ============ UNIVERSITY MODAL ============ -->
+<div class="uni-modal" id="uniModal" role="dialog" aria-modal="true" aria-labelledby="umName">
+  <div class="scrim" data-close></div>
+  <div class="uni-card">
+    <button class="close" data-close aria-label="Close">✕</button>
+    <div class="stripe"></div>
+    <div class="photo" id="umPhoto"></div>
+    <div class="body">
+      <h3 id="umName"></h3>
+      <div class="meta" id="umMeta"></div>
+      <p id="umBlurb"></p>
+      <div class="actions">
+        <a class="btn red" href="#contact" id="umEnquire">Enquire about admission</a>
+        <a class="btn ghost" href="#" id="umSite" target="_blank" rel="noopener">Official website ↗</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="unis.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+// ===== Partner universities (data: unis.js, source: eduadvise.in + Wikipedia) =====
+const STATUSES = ['Boarding', 'On Time', 'Gate Open'];
+const FLAT = [];
+UNI_DATA.forEach((c) => c.unis.forEach((u) => {
+  FLAT.push({ ...u, country: c.country, code: c.code, id: FLAT.length });
+}));
+
+function boardRows(filter) {
+  return filter === 'All' ? FLAT : FLAT.filter((r) => r.country === filter);
+}
+
+function renderBoard(filter) {
+  const body = document.getElementById('boardBody');
+  body.innerHTML = boardRows(filter).map((r, i) => `
+    <div class="brow" role="button" tabindex="0" data-id="${r.id}" style="animation-delay:${Math.min(i * 30, 600)}ms">
+      <span class="code">EA-${r.code}</span>
+      <span class="uni">${r.n}</span>
+      <span class="ctry">${r.country}</span>
+      <span class="status${i % 3 === 2 ? ' gold' : ''}">${STATUSES[i % 3]}</span>
+    </div>`).join('');
+}
+
+// ===== University detail modal =====
+const modal = document.getElementById('uniModal');
+
+function openUni(id) {
+  const u = FLAT[id];
+  if (!u) return;
+  const photo = document.getElementById('umPhoto');
+  if (u.img) {
+    photo.className = 'photo';
+    photo.innerHTML = `<img src="${u.img}" alt="${u.n}" loading="lazy" referrerpolicy="no-referrer">
+      <span class="code-chip">EA-${u.code} · ${u.country}</span>`;
+  } else {
+    photo.className = 'photo ph';
+    photo.innerHTML = `<span class="mark">${u.n.charAt(0)}</span>
+      <span class="mono">EduAdvise Partner Campus</span>
+      <span class="code-chip">EA-${u.code} · ${u.country}</span>`;
+  }
+  document.getElementById('umName').textContent = u.n;
+  document.getElementById('umMeta').innerHTML =
+    `<span>${u.country}</span><span>Intakes: Jan · May · Sept</span><span>Status: ${STATUSES[id % 3]}</span>`;
+  document.getElementById('umBlurb').textContent =
+    u.b || `${u.n} is one of EduAdvise International's partner institutions. Talk to our counsellors in Margao for courses, entry requirements and scholarships.`;
+  const site = document.getElementById('umSite');
+  site.style.display = u.w ? '' : 'none';
+  if (u.w) site.href = u.w;
+  modal.classList.add('open');
+  document.body.classList.add('modal-open');
+}
+
+function closeUni() {
+  modal.classList.remove('open');
+  document.body.classList.remove('modal-open');
+}
+
+modal.addEventListener('click', (e) => { if (e.target.hasAttribute('data-close')) closeUni(); });
+document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeUni(); });
+document.getElementById('umEnquire').addEventListener('click', closeUni);
+document.getElementById('boardBody').addEventListener('click', (e) => {
+  const row = e.target.closest('.brow');
+  if (row) openUni(Number(row.dataset.id));
+});
+document.getElementById('boardBody').addEventListener('keydown', (e) => {
+  const row = e.target.closest('.brow');
+  if (row && (e.key === 'Enter' || e.key === ' ')) { e.preventDefault(); openUni(Number(row.dataset.id)); }
+});
+
+function renderTabs() {
+  const total = UNI_DATA.reduce((n, c) => n + c.unis.length, 0);
+  const tabs = [{ label: 'All', count: total }, ...UNI_DATA.map((c) => ({ label: c.country, count: c.unis.length }))];
+  const el = document.getElementById('uniTabs');
+  el.innerHTML = tabs.map((t, i) =>
+    `<button class="uni-tab${i === 0 ? ' active' : ''}" data-filter="${t.label}">${t.label}<b>${t.count}</b></button>`).join('');
+  el.addEventListener('click', (e) => {
+    const btn = e.target.closest('.uni-tab');
+    if (!btn) return;
+    el.querySelectorAll('.uni-tab').forEach((b) => b.classList.toggle('active', b === btn));
+    renderBoard(btn.dataset.filter);
+    document.getElementById('boardBody').scrollTop = 0;
+  });
+}
+
+renderTabs();
+renderBoard('All');
+
+// ===== Mobile hamburger menu =====
+const burger = document.getElementById('burger');
+const mobileMenu = document.getElementById('mobileMenu');
+burger.addEventListener('click', () => {
+  const open = mobileMenu.classList.toggle('open');
+  burger.classList.toggle('open', open);
+  burger.setAttribute('aria-expanded', String(open));
+  burger.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+});
+mobileMenu.addEventListener('click', (e) => {
+  if (e.target.closest('a')) {
+    mobileMenu.classList.remove('open');
+    burger.classList.remove('open');
+    burger.setAttribute('aria-expanded', 'false');
+  }
+});
+
+// Stagger siblings within each animated group before AOS reads the DOM
+document.querySelectorAll('.svc-grid, .dest-grid, .steps, .cards').forEach((group) => {
+  [...group.querySelectorAll(':scope > [data-aos]')].forEach((el, i) => {
+    if (!el.hasAttribute('data-aos-delay')) {
+      el.setAttribute('data-aos-delay', String(Math.min(i * 80, 400)));
+    }
+  });
+});
+
+AOS.init({
+  duration: 700,
+  easing: 'ease-out-cubic',
+  offset: 80,
+  once: true,            // animate once — better scroll performance
+  disable: () => window.matchMedia('(prefers-reduced-motion: reduce)').matches
+});
+</script>
+<script type="importmap">
+{ "imports": { "three": "https://unpkg.com/three@0.164.1/build/three.module.js" } }
+</script>
+<script type="module">
+// EduAdvise 3D destinations globe — Three.js
+// PBR pipeline: tries Substance-exported maps from textures/ first
+// (globe_baseColor.png, globe_normal.png, globe_ORM.png), falls back to a
+// CDN earth texture tinted with the brand palette.
+import * as THREE from 'three';
+
+const box = document.getElementById('globeBox');
+if (box) initGlobe(box);
+
+function initGlobe(box) {
+  const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
+  renderer.setPixelRatio(Math.min(devicePixelRatio, 2));
+  renderer.toneMapping = THREE.ACESFilmicToneMapping; // filmic finish
+  renderer.toneMappingExposure = 1.15;
+  box.appendChild(renderer.domElement);
+
+  const scene = new THREE.Scene();
+  const camera = new THREE.PerspectiveCamera(38, 1, 0.1, 100);
+  camera.position.set(0, 0, 3.4);
+
+  // cinematic lighting: dim fill + warm sun from the left = day/night terminator
+  scene.add(new THREE.AmbientLight(0x8888aa, 0.55));
+  const sun = new THREE.DirectionalLight(0xFFDFB8, 3.0);
+  sun.position.set(-5, 1.5, 3.5);
+  scene.add(sun);
+
+  const globe = new THREE.Group();
+  scene.add(globe);
+
+  // ---- PBR material (metallic/roughness workflow) ----
+  const mat = new THREE.MeshStandardMaterial({ color: 0x140B1A, roughness: 0.8, metalness: 0.08 });
+  const loader = new THREE.TextureLoader();
+  loader.load(
+    'textures/globe_baseColor.png',
+    (t) => { // Substance export found — full PBR setup
+      t.colorSpace = THREE.SRGBColorSpace;
+      mat.map = t; mat.color.set(0xffffff); mat.needsUpdate = true;
+      loader.load('textures/globe_normal.png', (n) => { mat.normalMap = n; mat.needsUpdate = true; });
+      loader.load('textures/globe_ORM.png', (orm) => { // R=AO G=roughness B=metallic
+        mat.aoMap = orm; mat.roughnessMap = orm; mat.metalnessMap = orm;
+        mat.roughness = 1; mat.metalness = 1; mat.needsUpdate = true;
+      });
+    },
+    undefined,
+    () => { // fallback: NASA night-lights earth (4K), glowing cities
+      const PLANETS = 'https://raw.githubusercontent.com/mrdoob/three.js/master/examples/textures/planets/';
+      loader.load(PLANETS + 'earth_night_4096.jpg', (t) => {
+        t.colorSpace = THREE.SRGBColorSpace;
+        t.anisotropy = renderer.capabilities.getMaxAnisotropy();
+        mat.map = t; mat.color.set(0xffffff);
+        mat.emissiveMap = t; mat.emissive.set(0xFFC97A); mat.emissiveIntensity = 1.05;
+        mat.roughness = 0.55;
+        mat.needsUpdate = true;
+      });
+      loader.load(PLANETS + 'earth_normal_2048.jpg', (n) => { // terrain relief
+        mat.normalMap = n;
+        mat.normalScale = new THREE.Vector2(0.65, 0.65);
+        mat.needsUpdate = true;
+      });
+      loader.load(PLANETS + 'earth_clouds_1024.png', (c) => { // faint drifting clouds
+        clouds.material.map = c;
+        clouds.material.needsUpdate = true;
+        clouds.visible = true;
+      });
+    }
+  );
+
+  const sphere = new THREE.Mesh(new THREE.SphereGeometry(1, 96, 96), mat);
+  sphere.geometry.setAttribute('uv2', sphere.geometry.attributes.uv); // AO needs uv2
+  globe.add(sphere);
+
+  // cloud layer (texture assigned on load; drifts independently)
+  const clouds = new THREE.Mesh(
+    new THREE.SphereGeometry(1.012, 64, 64),
+    new THREE.MeshLambertMaterial({ transparent: true, opacity: 0.28, depthWrite: false })
+  );
+  clouds.visible = false;
+  scene.add(clouds);
+
+  // golden atmosphere — fresnel halo around the limb
+  const glowVert = `varying vec3 vNormal;
+    void main() {
+      vNormal = normalize(normalMatrix * normal);
+      gl_Position = projectionMatrix * modelViewMatrix * vec4(position, 1.0);
+    }`;
+  const halo = new THREE.Mesh(
+    new THREE.SphereGeometry(1, 64, 64),
+    new THREE.ShaderMaterial({
+      uniforms: { glowColor: { value: new THREE.Color(0xFF9E3D) } },
+      vertexShader: glowVert,
+      fragmentShader: `varying vec3 vNormal; uniform vec3 glowColor;
+        void main() {
+          float intensity = pow(0.58 - dot(vNormal, vec3(0.0, 0.0, 1.0)), 5.0);
+          gl_FragColor = vec4(glowColor, 1.0) * intensity;
+        }`,
+      side: THREE.BackSide, blending: THREE.AdditiveBlending,
+      transparent: true, depthWrite: false,
+    })
+  );
+  halo.scale.setScalar(1.12);
+  scene.add(halo);
+
+  // bright golden limb on the globe edge itself
+  const limb = new THREE.Mesh(
+    new THREE.SphereGeometry(1.002, 64, 64),
+    new THREE.ShaderMaterial({
+      uniforms: { glowColor: { value: new THREE.Color(0xFFC97A) } },
+      vertexShader: glowVert,
+      fragmentShader: `varying vec3 vNormal; uniform vec3 glowColor;
+        void main() {
+          float intensity = pow(1.0 - abs(dot(vNormal, vec3(0.0, 0.0, 1.0))), 4.5) * 0.55;
+          gl_FragColor = vec4(glowColor, 1.0) * intensity;
+        }`,
+      blending: THREE.AdditiveBlending, transparent: true, depthWrite: false,
+    })
+  );
+  scene.add(limb);
+
+  // ---- flight routes: Goa -> destinations ----
+  const toVec = (lat, lon, r = 1) => {
+    const phi = (90 - lat) * Math.PI / 180;
+    const theta = (lon + 180) * Math.PI / 180;
+    return new THREE.Vector3(
+      -r * Math.sin(phi) * Math.cos(theta),
+      r * Math.cos(phi),
+      r * Math.sin(phi) * Math.sin(theta)
+    );
+  };
+
+  const GOA = [15.27, 73.95];
+  const DESTS = [
+    [51.51, -0.13],   // London
+    [-37.81, 144.96], // Melbourne
+    [43.65, -79.38],  // Toronto
+    [40.71, -74.00],  // New York
+    [53.35, -6.26],   // Dublin
+    [-36.85, 174.76], // Auckland
+    [52.52, 13.40],   // Berlin
+    [25.20, 55.27],   // Dubai
+  ];
+  const ORANGE = 0xF76A0C, GOLD = 0xC99B3F;
+
+  const home = new THREE.Mesh(
+    new THREE.SphereGeometry(0.024, 12, 12),
+    new THREE.MeshBasicMaterial({ color: ORANGE })
+  );
+  home.position.copy(toVec(...GOA, 1.005));
+  globe.add(home);
+
+  const routes = [];
+  DESTS.forEach(([lat, lon]) => {
+    const dot = new THREE.Mesh(
+      new THREE.SphereGeometry(0.015, 10, 10),
+      new THREE.MeshBasicMaterial({ color: GOLD })
+    );
+    dot.position.copy(toVec(lat, lon, 1.005));
+    globe.add(dot);
+
+    const a = toVec(...GOA, 1.005);
+    const b = toVec(lat, lon, 1.005);
+    const mid = a.clone().add(b).multiplyScalar(0.5).normalize()
+      .multiplyScalar(1 + a.distanceTo(b) * 0.32);
+    const curve = new THREE.QuadraticBezierCurve3(a, mid, b);
+    const line = new THREE.Line(
+      new THREE.BufferGeometry().setFromPoints(curve.getPoints(48)),
+      new THREE.LineBasicMaterial({ color: ORANGE, transparent: true, opacity: 0.5, blending: THREE.AdditiveBlending })
+    );
+    globe.add(line);
+    routes.push(curve);
+  });
+
+  // ---- animated planes flying Goa -> each destination ----
+  const planeMat = new THREE.MeshBasicMaterial({ color: 0xFFD489 });
+  function miniPlane() {
+    const g = new THREE.Group();
+    const body = new THREE.Mesh(new THREE.ConeGeometry(0.009, 0.04, 8), planeMat);
+    body.rotation.z = -Math.PI / 2; // nose along +x
+    g.add(body);
+    const wings = new THREE.Mesh(new THREE.BoxGeometry(0.013, 0.0025, 0.042), planeMat);
+    wings.position.x = -0.003;
+    g.add(wings);
+    const tail = new THREE.Mesh(new THREE.BoxGeometry(0.006, 0.01, 0.003), planeMat);
+    tail.position.set(-0.017, 0.005, 0);
+    g.add(tail);
+    globe.add(g);
+    return g;
+  }
+  const flights = routes.map((curve, i) => ({
+    obj: miniPlane(),
+    curve,
+    t: (i * 0.37) % 1,                 // staggered departures
+    speed: 0.055 + (i % 3) * 0.014,    // varied cruising speeds
+  }));
+  const _m = new THREE.Matrix4();
+  const _fwd = new THREE.Vector3(), _up = new THREE.Vector3(), _side = new THREE.Vector3();
+  function flyPlanes(dt) {
+    flights.forEach((f) => {
+      f.t = (f.t + dt * f.speed) % 1;
+      const pos = f.curve.getPointAt(f.t);
+      _fwd.copy(f.curve.getTangentAt(f.t));      // nose along route
+      _up.copy(pos).normalize();                  // belly toward earth
+      _side.crossVectors(_fwd, _up).normalize();
+      _up.crossVectors(_side, _fwd);
+      _m.makeBasis(_fwd, _up, _side);
+      f.obj.position.copy(pos).addScaledVector(_up, 0.012); // cruise just above the arc
+      f.obj.quaternion.setFromRotationMatrix(_m);
+    });
+  }
+  flyPlanes(0); // place planes before first frame
+
+  // start with Goa facing the camera, slight tilt
+  globe.rotation.y = 2.86;
+  globe.rotation.x = 0.18;
+
+  // ---- drag to spin ----
+  let dragging = false, px = 0, py = 0;
+  const el = renderer.domElement;
+  el.style.cursor = 'grab';
+  el.addEventListener('pointerdown', (e) => {
+    dragging = true; px = e.clientX; py = e.clientY;
+    el.style.cursor = 'grabbing'; el.setPointerCapture(e.pointerId);
+  });
+  el.addEventListener('pointermove', (e) => {
+    if (!dragging) return;
+    globe.rotation.y += (e.clientX - px) * 0.005;
+    globe.rotation.x = Math.max(-0.9, Math.min(0.9, globe.rotation.x + (e.clientY - py) * 0.003));
+    px = e.clientX; py = e.clientY;
+  });
+  el.addEventListener('pointerup', () => { dragging = false; el.style.cursor = 'grab'; });
+  el.addEventListener('pointercancel', () => { dragging = false; el.style.cursor = 'grab'; });
+
+  const reduceMotion = matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  function resize() {
+    const w = box.clientWidth, h = box.clientHeight;
+    renderer.setSize(w, h);
+    camera.aspect = w / h;
+    camera.updateProjectionMatrix();
+  }
+  resize();
+  addEventListener('resize', resize);
+
+  renderer.setAnimationLoop(() => {
+    if (!dragging && !reduceMotion) globe.rotation.y += 0.0028;
+    if (!reduceMotion) {
+      flyPlanes(1 / 60);
+      clouds.rotation.y = globe.rotation.y * 1.12; // clouds drift slightly faster
+      clouds.rotation.x = globe.rotation.x;
+    } else {
+      clouds.rotation.copy(globe.rotation);
+    }
+    renderer.render(scene, camera);
+  });
+}
+</script>
+</body>
+</html>
